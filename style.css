@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: black;
+}
+.main {
+  /* overflow: hidden; */
+  height: 98vh;
+  position: relative;
+}
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+  z-index: -1; /* Sends the image behind other content */
+}
+
+.main .box {
+  height: 100%; 
+  width: 100%;
+  opacity: 0.68;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  height: 70px;
+  width: auto;
+  position: relative;
+  z-index: 10;
+  color: red ;  
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: 'Martel Sans', sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  flex-direction: column;
+  padding: 0 30px;  
+  gap: 23px;
+  /* margin-top: 25px; */
+}
+
+.text1{
+ font-weight: 900;
+ text-align: center;
+ font-size: 48px;
+ 
+}
+
+.text2{
+  text-align: center ;
+  font-weight: 400;
+  font-size: 20px;
+}
+.line{
+  background-color: #E20A18;
+  height: 7px;
+}
+.btn{
+  padding: 3px 8px;
+  font-family: 'Martel Sans', sans-serif ;
+  font-weight: bolder;
+  background-color: white;
+ 
+}
+
+.btn-red-sm{
+ background-color: #E20A18;
+ color: white;
+ /* font-family: 'Martel Sans', sans-serif ;
+ font-weight: bolder; */
+}
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+
+}
+.main input{
+  padding: 9px 35px ;
+  font-size: 12px;
+  border-radius: 4px ;
+  /* font-family: 'Martel Sans', sans-serif ;
+  font-weight: bolder; */
+  background-color: rgba(23, 23,23, 0.2);
+  
+}
+.btn-red {
+  background-color: #E20A18;
+  color: white;
+  padding: 3px 24px ;
+  font-size: 20px;
+  border-radius: 4px ;
+  /* font-family: 'Martel Sans', sans-serif ;
+  font-weight: bolder; */
+ }
